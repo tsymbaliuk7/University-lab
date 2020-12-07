@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95430f8-c09d-490b-905e-b20c4dc9e95c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/university/units/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/units/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/units/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/units/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/units/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/units/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/units/Rectorate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/units/Rectorate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +35,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.university.Main" />
-      <module name="University-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.university.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dima\University-lab\University-lab" />
+      <recent name="C:\Users\Dima\University-lab\University-lab\src" />
+      <recent name="C:\Users\Dima\University-lab\University-lab\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in University-lab">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -72,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingHouseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UniversityTest.GetAllDepartments_UniversityObject_ListOfDepartmentsFromEachFaculty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="University-lab" />
       <extension name="coverage">
         <pattern>
@@ -81,17 +73,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.university" />
-      <option name="MAIN_CLASS_NAME" value="com.university.CountingHouseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
+      <option name="METHOD_NAME" value="GetAllDepartments_UniversityObject_ListOfDepartmentsFromEachFaculty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityTest.GetAvgUnitsEmployees_UniversityObject_AverageEmployeesNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="University-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.university.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.university" />
+      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
+      <option name="METHOD_NAME" value="GetAvgUnitsEmployees_UniversityObject_AverageEmployeesNum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityTest.GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="University-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.university.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.university" />
+      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
+      <option name="METHOD_NAME" value="GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityTest.GetFacultyList_UnitListWithTwoFaculties_CorrectNumberOfFaculties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="University-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.university.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.university" />
+      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
+      <option name="METHOD_NAME" value="GetFacultyList_UnitListWithTwoFaculties_CorrectNumberOfFaculties" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in University-lab" />
-        <item itemvalue="JUnit.CountingHouseTest" />
+        <item itemvalue="JUnit.UniversityTest.GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts" />
+        <item itemvalue="JUnit.UniversityTest.GetAllDepartments_UniversityObject_ListOfDepartmentsFromEachFaculty" />
+        <item itemvalue="JUnit.UniversityTest.GetFacultyList_UnitListWithTwoFaculties_CorrectNumberOfFaculties" />
+        <item itemvalue="JUnit.UniversityTest.GetAvgUnitsEmployees_UniversityObject_AverageEmployeesNum" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607363166958</updated>
-      <workItem from="1607363168850" duration="2487000" />
+      <workItem from="1607363168850" duration="8196000" />
     </task>
     <servers />
   </component>
