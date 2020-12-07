@@ -32,5 +32,12 @@ public class Library extends Unit{
          return booksCount;
     }
 
+    @Override
+    public String toString() {
+        return "Library{" +
+                "booksCount=" + booksCount +
+                '}';
+    }
+
 
 }

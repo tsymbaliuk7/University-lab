@@ -3,6 +3,7 @@ package com.university.units;
 import com.university.NoUnitUniversityException;
 
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.Iterator;
 
 public class Faculty extends Unit{
@@ -31,6 +32,10 @@ public class Faculty extends Unit{
          }
     }
 
+
+    public Department getMaxEmployeesDepartment() throws NoUnitUniversityException{
+        return departmentUnits.stream().max(Comparator.comparing(Unit::employees)).orElseThrow(NoUnitUniversityException::new);
+    }
 
     @Override
     public void show() {
@@ -82,4 +87,14 @@ public class Faculty extends Unit{
     public void removeUnits(){
          this.departmentUnits.clear();
     }
+
+
+    @Override
+    public String toString() {
+        return "Faculty{" +
+                "facultyName='" + facultyName + '\'' +
+                '}';
+    }
+
+
 }

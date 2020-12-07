@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoUnitUniversityException {
         Bank bank = new Bank("PrivateBank");
         University university = new University(new ArrayList<>(), "Kyiv Polytechnic Institute",
                 PropertyType.STATE_UNIVERSITY, 57, bank)
@@ -36,5 +36,19 @@ public class Main {
         if (!university.equals(universityCopy)){
             System.out.println("We changed university name and now they are not equal");
         }
+
+        // functional
+        System.out.println("Get all Libraries:" + university.getSpecificUnits(unit -> unit instanceof Library));
+        System.out.println("Total university employees: " + university.getTotalUnitsEmployees());
+        System.out.println("Department with the most employees: " + tef.getMaxEmployeesDepartment());
+        System.out.println("Average university employees: " + university.getAvgUnitsEmployees());
+        System.out.println("Map with distributed units");
+        System.out.println(university.getDistributedUnits());
+        System.out.println("Departments from the whole university: ");
+        System.out.println(university.getAllDepartments());
+        System.out.println("Smallest department");
+        System.out.println(university.getSmallestDepartment());
+
+
     }
 }

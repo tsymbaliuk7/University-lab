@@ -19,4 +19,11 @@ public class Department extends Unit{
     public String getDepartmentName() {
         return departmentName;
     }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "departmentName='" + departmentName + '\'' +
+                '}';
+    }
 }

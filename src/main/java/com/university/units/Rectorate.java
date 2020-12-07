@@ -33,5 +33,11 @@ public class Rectorate extends Unit{
         System.out.println(this.rector);
     }
 
+    @Override
+    public String toString() {
+        return "Rectorate{" +
+                "rector=" + rector +
+                '}';
+    }
 
 }

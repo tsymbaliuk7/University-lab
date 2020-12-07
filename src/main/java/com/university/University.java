@@ -1,12 +1,10 @@
 package com.university;
 
-import com.university.units.CountingHouse;
-import com.university.units.PropertyType;
-import com.university.units.Unit;
+import com.university.units.*;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Objects;
+import java.util.*;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class University implements Showable {
     private String name;
@@ -53,6 +51,59 @@ public class University implements Showable {
             totalEmployees += it.next().employees();
         }
         return totalEmployees;
+    }
+
+    public List<Unit> getSpecificUnits(Predicate<? super Unit> predicate){
+        ArrayList<Unit> finalList = new ArrayList<>();
+        for(Unit elem: this.getUniversityUnits()){
+            if (predicate.test(elem)){
+                finalList.add(elem);
+            }
+        }
+        return finalList;
+    }
+
+    public int getTotalUnitsEmployees(){
+        return universityUnits
+                .stream()
+                .mapToInt(Unit::employees)
+                .sum();
+    }
+
+    public double getAvgUnitsEmployees(){
+        return universityUnits
+                .stream()
+                .mapToInt(Unit::employees)
+                .average()
+                .orElse(0.0);
+    }
+
+    public List<Faculty> getFacultyList(){
+        return getUniversityUnits()
+                .stream().filter(unit -> unit instanceof Faculty)
+                .map(faculty -> new Faculty((Faculty) faculty))
+                .collect(Collectors.toList());
+    }
+
+    public Department getSmallestDepartment() throws NoUnitUniversityException{
+        return getAllDepartments()
+                .stream()
+                .min(Comparator.comparing(Unit::employees))
+                .orElseThrow(NoUnitUniversityException::new);
+    }
+
+    public List<Department> getAllDepartments(){
+        return getSpecificUnits(unit -> unit instanceof Faculty)
+                .stream()
+                .map(faculty -> new Faculty((Faculty) faculty))
+                .map(Faculty::getDepartmentUnits)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toList());
+    }
+
+    public Map<String, List<Unit>> getDistributedUnits(){
+        return universityUnits.stream()
+                .collect(Collectors.groupingBy(unit -> unit.employees() >= 100 ? "large units" : "small units"));
     }
 
     public PropertyType getPropertyType() {
