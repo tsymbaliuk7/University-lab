@@ -43,7 +43,7 @@ public class Main {
         System.out.println("Department with the most employees: " + tef.getMaxEmployeesDepartment());
         System.out.println("Average university employees: " + university.getAvgUnitsEmployees());
         System.out.println("Map with distributed units");
-        System.out.println(university.getDistributedUnits());
+        System.out.println(university.getDistributedUnits(unit -> unit.employees() >= 100));
         System.out.println("Departments from the whole university: ");
         System.out.println(university.getAllDepartments());
         System.out.println("Smallest department");

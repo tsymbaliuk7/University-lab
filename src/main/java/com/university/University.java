@@ -101,9 +101,9 @@ public class University implements Showable {
                 .collect(Collectors.toList());
     }
 
-    public Map<String, List<Unit>> getDistributedUnits(){
+    public Map<String, List<Unit>> getDistributedUnits(Predicate<? super Unit> predicate){
         return universityUnits.stream()
-                .collect(Collectors.groupingBy(unit -> unit.employees() >= 100 ? "large units" : "small units"));
+                .collect(Collectors.groupingBy(unit -> predicate.test(unit) ? "true" : "false"));
     }
 
     public PropertyType getPropertyType() {
