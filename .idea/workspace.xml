@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95430f8-c09d-490b-905e-b20c4dc9e95c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/university/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/university/University.java" afterDir="false" />
+    <list default="true" id="3dd988ae-8e17-4d7b-b566-705214d4ecda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/university/UniversityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/university/UniversityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,32 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1l0wMtRe9wrkMCjoMGyIZZx979H" />
+  <component name="ProjectId" id="1lf81vpLXGheIhmfHX52ArPoyko" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dima\University-lab\University-lab" />
-      <recent name="C:\Users\Dima\University-lab\University-lab\src" />
-      <recent name="C:\Users\Dima\University-lab\University-lab\src\main" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.All in University-lab">
+  <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -64,90 +49,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniversityTest.GetAllDepartments_UniversityObject_ListOfDepartmentsFromEachFaculty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="University-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.university.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.university" />
-      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
-      <option name="METHOD_NAME" value="GetAllDepartments_UniversityObject_ListOfDepartmentsFromEachFaculty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniversityTest.GetAvgUnitsEmployees_UniversityObject_AverageEmployeesNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="University-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.university.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.university" />
-      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
-      <option name="METHOD_NAME" value="GetAvgUnitsEmployees_UniversityObject_AverageEmployeesNum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniversityTest.GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="University-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.university.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.university" />
-      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
-      <option name="METHOD_NAME" value="GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniversityTest.GetFacultyList_UnitListWithTwoFaculties_CorrectNumberOfFaculties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="University-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.university.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.university" />
-      <option name="MAIN_CLASS_NAME" value="com.university.UniversityTest" />
-      <option name="METHOD_NAME" value="GetFacultyList_UnitListWithTwoFaculties_CorrectNumberOfFaculties" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in University-lab" />
-        <item itemvalue="JUnit.UniversityTest.GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts" />
-        <item itemvalue="JUnit.UniversityTest.GetAllDepartments_UniversityObject_ListOfDepartmentsFromEachFaculty" />
-        <item itemvalue="JUnit.UniversityTest.GetFacultyList_UnitListWithTwoFaculties_CorrectNumberOfFaculties" />
-        <item itemvalue="JUnit.UniversityTest.GetAvgUnitsEmployees_UniversityObject_AverageEmployeesNum" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b95430f8-c09d-490b-905e-b20c4dc9e95c" name="Default Changelist" comment="" />
-      <created>1607363166958</created>
+      <changelist id="3dd988ae-8e17-4d7b-b566-705214d4ecda" name="Default Changelist" comment="" />
+      <created>1607976579579</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607363166958</updated>
-      <workItem from="1607363168850" duration="8800000" />
-      <workItem from="1607431332217" duration="1083000" />
+      <updated>1607976579579</updated>
+      <workItem from="1607976589820" duration="122000" />
     </task>
     <servers />
   </component>

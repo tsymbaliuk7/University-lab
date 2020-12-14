@@ -95,7 +95,7 @@ public class UniversityTest {
 
     @Test
     public void GetDistributedUnits_ListOfUniversityUnits_MapOfThisUnitsDistributedIntoTwoParts(){
-        Map<String, List<Unit>> stringListMap = university.getDistributedUnits();
+        Map<String, List<Unit>> stringListMap = university.getDistributedUnits(unit -> unit.employees() > 100);
         System.out.println(stringListMap);
         Assert.assertEquals(stringListMap.size(), 2);
     }
