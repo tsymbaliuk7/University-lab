@@ -11,7 +11,7 @@ import org.mockito.Mockito;
 import static org.mockito.Mockito.*;
 
 
-public class UnitClassTest {
+public class UnitIT {
 
 
     @Test

@@ -11,7 +11,7 @@ import static org.mockito.Mockito.*;
 
 import java.util.ArrayList;
 
-public class UniversityMockTest {
+public class UniversityIT {
 
 
     @Test
