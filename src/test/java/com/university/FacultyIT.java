@@ -25,4 +25,15 @@ public class FacultyIT {
         verify(department).employees();
     }
 
+    @Test
+    public void AddDepartment_OneDepartment_TheSameNumber(){
+        ArrayList<Department> list = Mockito.spy(new ArrayList<>());
+        Faculty facultyTest = new Faculty(120, "Faculty Test", list);
+        Department department = new Department(12, "testdepartment");
+        facultyTest.addDepartment(department);
+        Assert.assertEquals(1, list.size());
+        Mockito.verify(list).add(department);
+
+    }
+
 }
